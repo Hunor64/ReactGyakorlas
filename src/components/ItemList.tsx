@@ -2,11 +2,11 @@ const ItemList = () => {
   const items:string[] = ["Item 1", "Item 2", "Item 3"];
 
   return (
-    <div>
+    <ul>
       {items.map(item => (
-        <div>{item}</div>
+        <li>{item}</li>
       ))}
-    </div>
+    </ul>
   );
 };
 
