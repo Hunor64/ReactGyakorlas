@@ -1,4 +1,4 @@
-interface ShoppingListItem {
+type ShoppingListItem = {
     name: string;
     quantity: number;
 }
@@ -14,8 +14,8 @@ const ShoppingList = () => {
         <div>
             <h2>Shopping List</h2>
             <ul>
-                {items.map((item, index) => (
-                    <li key={index}>
+                {items.map(item => (
+                    <li >
                         {item.name} - {item.quantity}
                     </li>
                 ))}

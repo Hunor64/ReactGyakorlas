@@ -1,18 +1,13 @@
-interface ProductData {
+type ProductData = {
   name: string;
   price: number;
-}
+};
 
-const Product = () => {
-  const product: ProductData = {
-    name: "Thermonuclear Bomb",
-    price: 0,
-  };
-
+const Product = (props:ProductData) => {
   return (
     <div>
-      <h2>{product.name}</h2>
-      <p>Price: ${product.price}</p>
+      <h2>Terméknév: {props.name}</h2>
+      <p>Ár: {props.price}</p>
     </div>
   );
 };

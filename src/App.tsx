@@ -6,12 +6,16 @@ import StyleBox from "./components/StyleBox";
 import WelcomeMessage from "./components/WelcomeMessage";
 
 const App = () => {
+  const termek = {
+    name: "Thermonukleáris bomba",
+    price: 0,
+  };
   return (
     <div>
       <WelcomeMessage />
       <ItemList />
       <StyleBox />
-      <Product />
+      <Product {...termek}/>
       <ShoppingList />
     </div>
   );
