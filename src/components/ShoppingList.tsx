@@ -7,7 +7,7 @@ const ShoppingList = ({ props }: { props: ShoppingListItem[] }) => {
   return (
     <ul>
       {props.map((item) => (
-        <li>
+        <li key={item.name}>
           {item.name} - {item.quantity}
         </li>
       ))}
