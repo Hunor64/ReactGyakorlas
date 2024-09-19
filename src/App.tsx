@@ -1,3 +1,4 @@
+import "./style.css";
 import ItemList from "./components/ItemList";
 import Product from "./components/Produtc";
 import ShoppingList from "./components/ShoppingList";

@@ -3,7 +3,7 @@ interface ProductData {
   price: number;
 }
 
-const Product: React.FC = () => {
+const Product = () => {
   const product: ProductData = {
     name: "Thermonuclear Bomb",
     price: 0,
