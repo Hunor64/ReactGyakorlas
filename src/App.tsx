@@ -1,6 +1,6 @@
 import "./style.css";
 import ItemList from "./components/ItemList";
-import Product from "./components/Produtc";
+import Product from "./components/Product";
 import ShoppingList from "./components/ShoppingList";
 import StyleBox from "./components/StyleBox";
 import WelcomeMessage from "./components/WelcomeMessage";
