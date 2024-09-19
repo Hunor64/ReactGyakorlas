@@ -1,5 +1,8 @@
 const ItemList = () => {
-  const items:string[] = ["Item 1", "Item 2", "Item 3"];
+  const items:string[] = [];
+  for (let index = 1; index-1 < 3; index++) {
+    items.push("Item " + index);    
+  }
 
   return (
     <ul className="lista">
