@@ -10,13 +10,18 @@ const App = () => {
     name: "Thermonukleáris bomba",
     price: 0,
   };
+  const tobbTermekek = [
+    { name: "Apple", quantity: 5 },
+    { name: "Banana", quantity: 3 },
+    { name: "Orange", quantity: 2 },
+];
   return (
     <div>
       <WelcomeMessage />
       <ItemList />
       <StyleBox />
       <Product {...termek}/>
-      <ShoppingList />
+      <ShoppingList data={tobbTermekek} />
     </div>
   );
 };
