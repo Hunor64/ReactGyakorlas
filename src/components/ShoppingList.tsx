@@ -3,7 +3,7 @@ type ShoppingListItem = {
   quantity: number;
 };
 
-const ShoppingList = ({props}: {props: ShoppingListItem[]}) => {
+const ShoppingList = ({ props }: { props: ShoppingListItem[] }) => {
   return (
     <ul>
       {props.map((item) => (
