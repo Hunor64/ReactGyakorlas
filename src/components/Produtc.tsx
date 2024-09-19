@@ -3,7 +3,7 @@ type ProductData = {
   price: number;
 };
 
-const Product = (props:ProductData) => {
+const Product = (props: ProductData) => {
   return (
     <div>
       <h2>Terméknév: {props.name}</h2>
