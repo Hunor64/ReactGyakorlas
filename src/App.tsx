@@ -21,7 +21,7 @@ const App = () => {
       <ItemList />
       <StyleBox />
       <Product {...termek}/>
-      <ShoppingList data={tobbTermekek} />
+      <ShoppingList props={tobbTermekek} />
     </div>
   );
 };
