@@ -14,13 +14,13 @@ const App = () => {
     { name: "Apple", quantity: 5 },
     { name: "Banana", quantity: 3 },
     { name: "Orange", quantity: 2 },
-];
+  ];
   return (
     <div>
       <WelcomeMessage />
       <ItemList />
       <StyleBox />
-      <Product {...termek}/>
+      <Product {...termek} />
       <ShoppingList props={tobbTermekek} />
     </div>
   );
